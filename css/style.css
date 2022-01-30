@@ -1,0 +1,59 @@
+.body{
+    background-color: #c2c2a3
+}
+
+.logo{
+    margin-left: 10px;
+    width: 100px;
+}
+
+.nav-item{
+    padding: 10px;
+}
+
+.nav-link{
+    font-size: 20px;
+}
+
+/*Imagenes*/
+
+.carousel-inner{
+    height: 50em;
+    max-height: 400px;  
+}
+
+.imagen{
+    height: 200px;
+}
+
+
+/*footer*/
+
+
+.logos{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.logoRedes{ 
+    width: 60px;
+    height: 50px;
+    margin: 20px;
+    padding: 0px 6px;
+    border-radius: 50%;
+    transition: transform 0.8s;
+    margin-bottom: 20px;
+}
+
+.listas a img:hover{
+    transform: scale(1.2);
+}
+
+/*Seccion Nosotros*/
+
+.imagenesNosotros{
+    width: 400px;
+    height: 350px;
+    padding: 10px;
+    border-radius: 10%;
+}
