@@ -2,6 +2,9 @@
     background-color: #c2c2a3
 }
 
+/*--------------------Seccion index---------------------*/
+/*--------------------Navbar----------------------------*/
+
 .navbarColor{
     background-color: #adad85;
 }
@@ -19,7 +22,8 @@
     font-size: 20px;
 }
 
-/*Imagenes*/
+/*-----------------------------------Main-----------------------------------*/
+/*-----------------------------------Carousel-----------------------------------*/
 
 .carousel-inner{
     height: 50em;
@@ -31,7 +35,7 @@
 }
 
 
-/*footer*/
+/*----------------------------------footer------------------------------------------*/
 
 .footerColor{
     background-color: #adad85;
@@ -56,11 +60,52 @@
     transform: scale(1.2);
 }
 
-/*Seccion Nosotros*/
+/*----------------------------------Seccion Nosotros--------------------------------------------*/
 
 .imagenesNosotros{
     width: 400px;
     height: 350px;
     padding: 10px;
     border-radius: 10%;
+}
+
+/*----------------------------------Seccion Servicios--------------------------------------------*/
+
+.cardSeccion{
+    border: none;
+}
+
+.cardSeccion img{
+    height: 300px;
+    width: 100%;
+}
+
+/*--------------------------------------Seccion Galeria----------------------------------------*/
+
+.imagenesGaleria{
+    margin-bottom: 10px;
+ 
+}
+
+.imagenesGaleria img{
+    padding: 10px;
+    
+}
+
+.imagenesGaleria img:hover{
+    transform: scale(1.1);
+}
+
+/*------------------------------------------Seccion contacto--------------------------------------*/
+
+.colorFormulario{
+    background-color: #c3c388;
+}
+
+.datos a{  
+  text-decoration: none;
+}
+
+.datosMapa{
+    color: black;
 }
